@@ -33,12 +33,14 @@
             // 
             // buttonSayHello
             // 
-            this.buttonSayHello.Location = new System.Drawing.Point(78, 61);
+            this.buttonSayHello.BackColor = System.Drawing.Color.Teal;
+            this.buttonSayHello.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSayHello.Location = new System.Drawing.Point(72, 53);
             this.buttonSayHello.Name = "buttonSayHello";
-            this.buttonSayHello.Size = new System.Drawing.Size(75, 23);
+            this.buttonSayHello.Size = new System.Drawing.Size(102, 51);
             this.buttonSayHello.TabIndex = 0;
             this.buttonSayHello.Text = "Say Hello";
-            this.buttonSayHello.UseVisualStyleBackColor = true;
+            this.buttonSayHello.UseVisualStyleBackColor = false;
             this.buttonSayHello.Click += new System.EventHandler(this.buttonSayHello_Click);
             // 
             // Form1
@@ -46,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(226, 156);
+            this.ClientSize = new System.Drawing.Size(247, 169);
             this.Controls.Add(this.buttonSayHello);
             this.Name = "Form1";
             this.Text = "Saying Hello ";
