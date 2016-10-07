@@ -16,5 +16,10 @@ namespace testingStuffs
         {
             InitializeComponent();
         }
+
+        private void buttonSayHello_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Saying Hello !!!");
+        }
     }
 }
